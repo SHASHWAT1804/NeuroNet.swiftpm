@@ -56,6 +56,7 @@ struct BouncyButton: View {
 
     var body: some View {
         Button(action: {
+            Haptics.medium()
             withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
                 isPressed = true
             }

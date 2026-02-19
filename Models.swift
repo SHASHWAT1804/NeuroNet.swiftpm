@@ -53,6 +53,7 @@ enum QuizCategory: String, Codable, CaseIterable {
     case subnetting = "Subnetting"
     case protocols = "Protocols"
     case mixed = "Mixed Challenge"
+    case dailyChallenge = "Daily Challenge"
 
     var icon: String {
         switch self {
@@ -64,6 +65,7 @@ enum QuizCategory: String, Codable, CaseIterable {
         case .subnetting: return "square.grid.3x3.fill"
         case .protocols: return "arrow.triangle.branch"
         case .mixed: return "shuffle"
+        case .dailyChallenge: return "calendar.circle.fill"
         }
     }
 
@@ -77,6 +79,7 @@ enum QuizCategory: String, Codable, CaseIterable {
         case .subnetting: return "pink"
         case .protocols: return "indigo"
         case .mixed: return "yellow"
+        case .dailyChallenge: return "red"
         }
     }
 }

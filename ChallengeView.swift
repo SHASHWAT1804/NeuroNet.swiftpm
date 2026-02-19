@@ -80,7 +80,7 @@ struct ChallengeView: View {
 
     private var dailyChallengeCard: some View {
         let completed = store.isDailyChallengeCompleted()
-        return NavigationLink(destination: QuizSetupView(category: .mixed)) {
+        return NavigationLink(destination: DailyChallengePlayView()) {
             HStack(spacing: 16) {
                 VStack(spacing: 4) {
                     Text("🏆")
