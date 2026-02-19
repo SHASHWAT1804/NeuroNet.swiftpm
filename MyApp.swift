@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct NeuroNetKidsApp: App {
+struct BitStreamApp: App {
     @StateObject private var appState = AppState()
     @StateObject private var userVM = UserProfileViewModel()
     @StateObject private var quizEngine = QuizEngine()

@@ -8,15 +8,15 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "NeuroNet",
+    name: "BitStream",
     platforms: [
         .iOS("16.0")
     ],
     products: [
         .iOSApplication(
-            name: "NeuroNet",
+            name: "Bit Stream",
             targets: ["AppModule"],
-            bundleIdentifier: "com.org.NeuroNet",
+            bundleIdentifier: "com.org.BitStream",
             displayVersion: "1.0",
             bundleVersion: "1",
             appIcon: .asset("AppIcon"),

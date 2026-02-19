@@ -7,8 +7,8 @@ struct OnboardingView: View {
     @State private var showButton = false
 
     let pages: [(emoji: String, title: String, description: String)] = [
-        ("🤖", "Meet Neuro",
-         "Hi there! I'm Neuro, your robot guide. I'll help you explore the amazing world of numbers and networks!"),
+        ("🤖", "Meet Bit",
+         "Hi there! I'm Bit, your robot guide. I'll help you explore the amazing world of numbers and networks!"),
         ("🔢", "Number Systems",
          "Did you know computers only understand 0s and 1s? You'll learn to convert between binary, decimal, hex, and octal!"),
         ("🌐", "Networks",

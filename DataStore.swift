@@ -7,11 +7,11 @@ final class DataStore {
     private let defaults = UserDefaults.standard
 
     private enum Keys {
-        static let userProfile = "neuronet_user_profile"
-        static let quizResults = "neuronet_quiz_results"
-        static let leaderboard = "neuronet_leaderboard"
-        static let dailyChallengeDate = "neuronet_daily_challenge_date"
-        static let dailyChallengeCompleted = "neuronet_daily_challenge_completed"
+        static let userProfile = "bitstream_user_profile"
+        static let quizResults = "bitstream_quiz_results"
+        static let leaderboard = "bitstream_leaderboard"
+        static let dailyChallengeDate = "bitstream_daily_challenge_date"
+        static let dailyChallengeCompleted = "bitstream_daily_challenge_completed"
     }
 
     func saveProfile(_ profile: UserProfile) {
