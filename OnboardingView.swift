@@ -65,7 +65,9 @@ struct OnboardingView: View {
                     .padding(.bottom, 20)
                 } else {
                     BouncyButton("Next", icon: "arrow.right") {
-                        withAnimation(.spring()) { currentPage += 1 }
+                        withAnimation(.spring()) {
+                            currentPage = min(currentPage + 1, pages.count - 1)
+                        }
                     }
                     .padding(.bottom, 20)
                 }
